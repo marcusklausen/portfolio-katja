@@ -17,9 +17,7 @@ type Props =
 export default function PortfolioCard(props: Props) {
   if (props.isEmpty) return null;
 
-  const newLocal = `relative  group bg-black ${
-    props.imageSrc ? "overflow-hidden" : ""
-  }`;
+  const newLocal = `relative  group ${props.imageSrc ? "overflow-hidden" : ""}`;
   return (
     <motion.div
       key={props.slug}
@@ -29,11 +27,7 @@ export default function PortfolioCard(props: Props) {
       className={newLocal}
     >
       <div
-        className={`group transition-all relative ${props.className} ${
-          !props.imageSrc
-            ? "group-hover:-translate-y-4 group-hover:translate-x-4"
-            : ""
-        }`}
+        className={`group transition-all relative ${props.className}`}
         style={{
           height: portfolioCardHeightMap[props.height],
           ...props.style,
@@ -53,7 +47,7 @@ export default function PortfolioCard(props: Props) {
             )}
           </div>
           <svg
-            className="w-10 h-2  transform group-hover:translate-x-1 transition-transform"
+            className="w-10 h-2  transform group-hover:translate-x-4 transition-transform"
             viewBox="0 0 41 8"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +64,8 @@ export default function PortfolioCard(props: Props) {
             <Image
               src={props.imageSrc}
               alt={props.title}
-              quality={100}
+              quality={80}
+              sizes="(max-width: 768px) 100vw, 50vw"
               fill
               className="object-cover"
             />

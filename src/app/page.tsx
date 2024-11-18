@@ -1,7 +1,6 @@
 import MasonryGrid from "./components/masonry-grid";
 import LinkWithArrow from "./components/link-with-arrow";
 
-import ObscuredLink from "./components/obscured-link";
 import Image from "next/image";
 
 import { projects } from "src/utils/constants";
@@ -21,9 +20,21 @@ export default async function Page() {
 
           <div className="flex flex-col md:flex-row text-xl md:text-2xl md:justify-between md:items-end gap-10 mt-10 md:mt-[260px]">
             <div className="space-y-2">
-              <LinkWithArrow href="#">Download CV</LinkWithArrow>
-              <LinkWithArrow href="#">LinkedIn</LinkWithArrow>
-              <LinkWithArrow href="#">Instagram</LinkWithArrow>
+              <LinkWithArrow href="/CV.pdf" target="_blank">
+                Download CV
+              </LinkWithArrow>
+              <LinkWithArrow
+                href="https://www.linkedin.com/in/katja-kurz-levring/"
+                target="_blank"
+              >
+                LinkedIn
+              </LinkWithArrow>
+              <LinkWithArrow
+                href="https://www.instagram.com/katjaklevring/"
+                target="_blank"
+              >
+                Instagram
+              </LinkWithArrow>
             </div>
             <p className="leading-relaxed max-w-[710px] text-lg md:text-2xl">
               Jeg hedder Katja og er 26 år. Jeg har en baggrund som
@@ -44,11 +55,8 @@ export default async function Page() {
           <div className="grid md:grid-cols-2 text-2xl  gap-10 mt-10 md:mt-20 ">
             <div className="flex flex-col justify-between items-stretch">
               <div className="space-y-2 mb-10 md:mb-0">
-                <LinkWithArrow>
-                  <ObscuredLink
-                    value="+45 30 27 79 27"
-                    href="tel:+4530277927"
-                  />
+                <LinkWithArrow href="tel:+4530277927">
+                  +45 30 27 79 27
                 </LinkWithArrow>
                 <LinkWithArrow href="mailto:katjakl@msn.com">
                   katjakl@msn.com
