@@ -13,6 +13,25 @@ import SectionTitle from "../_components/section/section-title";
 import SectionDescription from "../_components/section/section-description";
 import ImageRow from "../_components/image-row";
 import ExternalLink from "../_components/hero/external-link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Ethics & Society Case - Katja Kurz Levring",
+  description:
+    "Ethics & Society ønskede et touchup af design og UX på websitet. Redesignet gav sitet nyt liv og en behagelig oplevelse for alle besøgende.",
+  openGraph: {
+    title: "Ethics & Society Case - Katja Kurz Levring",
+    description:
+      "Ethics & Society ønskede et touchup af design og UX på websitet. Redesignet gav sitet nyt liv og en behagelig oplevelse.",
+    images: [
+      {
+        url: "/images/home-grid/ethics-and-society.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
+};
 
 export default async function Page() {
   return (

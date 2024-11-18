@@ -25,7 +25,7 @@ export default async function Page() {
               <LinkWithArrow href="#">LinkedIn</LinkWithArrow>
               <LinkWithArrow href="#">Instagram</LinkWithArrow>
             </div>
-            <p className="leading-relaxed max-w-[710px] text-lg">
+            <p className="leading-relaxed max-w-[710px] text-lg md:text-2xl">
               Jeg hedder Katja og er 26 år. Jeg har en baggrund som
               multimediedesigner og arbejder nu som UX/UI designer hos Minuba.
               Min passion ligger i at skabe brugeroplevelser, der forener

@@ -14,6 +14,26 @@ import SectionDescription from "../_components/section/section-description";
 import ImageRow from "../_components/image-row";
 import ExternalLink from "../_components/hero/external-link";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "CPH Business Case - Katja Kurz Levring",
+  description:
+    "Cphbusiness ønskede en helt ny hjemmeside - både UX og UI. De ønskede bedre struktur og et helt nyt design og liv som skulle ruske op i deres så at sige konservative udtryk.",
+  openGraph: {
+    title: "CPH Business Case - Katja Kurz Levring",
+    description:
+      "Cphbusiness ønskede en helt ny hjemmeside - både UX og UI. De ønskede bedre struktur og et helt nyt design og liv.",
+    images: [
+      {
+        url: "/images/home-grid/cph-business.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
+};
+
 export default async function Page() {
   return (
     <>

@@ -18,6 +18,26 @@ import SectionDescription from "../_components/section/section-description";
 import ImageRow from "../_components/image-row";
 import ExternalLink from "../_components/hero/external-link";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Studio N.A.A.L Case - Katja Kurz Levring",
+  description:
+    "Studio N.A.A.L er en alsidig og kreativ tattoobiks. Vi skabte en ny visuel identitet og udviklede en webløsning som omfavner deres kreative mindset.",
+  openGraph: {
+    title: "Studio N.A.A.L Case - Katja Kurz Levring",
+    description:
+      "Studio N.A.A.L er en alsidig og kreativ tattoobiks. Vi skabte en ny visuel identitet og webløsning.",
+    images: [
+      {
+        url: "/images/home-grid/studio-naal.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
+};
+
 export default async function Page() {
   return (
     <>

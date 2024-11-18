@@ -13,6 +13,25 @@ import SectionTitle from "../_components/section/section-title";
 import SectionDescription from "../_components/section/section-description";
 import ImageRow from "../_components/image-row";
 import ExternalLink from "../_components/hero/external-link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "DCC Energi Case - Katja Kurz Levring",
+  description:
+    "DCC Energi ønskede et ny og moderne website. Vi skabte fleksibilitet og til hurtigt at skabe informativt indhold ved at kombinere forskellige moduler.",
+  openGraph: {
+    title: "DCC Energi Case - Katja Kurz Levring",
+    description:
+      "DCC Energi ønskede et ny og moderne website. Vi skabte fleksibilitet og til hurtigt at skabe informativt indhold ved at kombinere forskellige moduler.",
+    images: [
+      {
+        url: "/images/home-grid/dcc-energi.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
+};
 
 export default async function Page() {
   return (
