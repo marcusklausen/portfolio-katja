@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #4b3124;
+  --background-secondary: #faf7f3;
+}
+/* no dark mode */
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-campton);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  .aspect-4\/3 {
+    aspect-ratio: 4/3;
+  }
+}
