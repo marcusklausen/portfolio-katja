@@ -1,18 +1,27 @@
+"use client";
+
 import Image from "next/image";
 import React from "react";
 import { cn } from "src/utils";
+import { motion } from "framer-motion";
 
 export default function ImageRow({
   sources,
   className,
   imageClassName,
+  priority = false,
 }: {
   sources: { src: string; alt: string }[];
   className?: string;
   imageClassName?: string;
+  priority?: boolean;
 }) {
   return (
-    <div
+    <motion.div
+      initial={{ y: 50, opacity: 0 }}
+      whileInView={{ y: 0, opacity: 1 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.6 }}
       className={cn(
         "flex flex-col md:flex-row w-full",
         className,
@@ -21,15 +30,18 @@ export default function ImageRow({
     >
       {sources.map((source) => (
         <Image
-          quality={100}
+          priority={priority}
+          loading={priority ? "eager" : "lazy"}
           src={source.src}
           alt={source.alt}
           key={source.src}
           width={1200}
           height={500}
+          quality={80}
+          sizes="(max-width: 768px) 100vw, 50vw"
           className={imageClassName}
         />
       ))}
-    </div>
+    </motion.div>
   );
 }
