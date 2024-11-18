@@ -13,6 +13,25 @@ import SectionTitle from "../_components/section/section-title";
 import SectionDescription from "../_components/section/section-description";
 import ImageRow from "../_components/image-row";
 import ExternalLink from "../_components/hero/external-link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Landbrugsavisen Case - Katja Kurz Levring",
+  description:
+    "Landbrugsmedierne gav den opgave at der skulle sælges flere abonnementer til Landbrugsavisen, og meget gerne alt indhold og magasiner digitalt.",
+  openGraph: {
+    title: "Landbrugsavisen Case - Katja Kurz Levring",
+    description:
+      "Landbrugsmedierne gav den opgave at der skulle sælges flere abonnementer til Landbrugsavisen digitalt.",
+    images: [
+      {
+        url: "/images/home-grid/landbrugsavisen.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
+};
 
 export default async function Page() {
   return (

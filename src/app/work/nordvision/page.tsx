@@ -13,6 +13,25 @@ import SectionTitle from "../_components/section/section-title";
 import SectionDescription from "../_components/section/section-description";
 import ImageRow from "../_components/image-row";
 import ExternalLink from "../_components/hero/external-link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Nordvision Case - Katja Kurz Levring",
+  description:
+    "Kunden ønskede et nyt, intuitivt brugerflow til My Nordvision, hvor ansatte fra radiokanaler som DR og NRK kunne få detaljeret overblik over projekter.",
+  openGraph: {
+    title: "Nordvision Case - Katja Kurz Levring",
+    description:
+      "Kunden ønskede et nyt, intuitivt brugerflow til My Nordvision for ansatte fra radiokanaler som DR og NRK.",
+    images: [
+      {
+        url: "/images/home-grid/nordvision.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
+};
 
 export default async function Page() {
   return (
