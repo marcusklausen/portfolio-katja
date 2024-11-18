@@ -18,9 +18,10 @@ export default function RootLayout({
       <body className={`${campton.variable} antialiased`}>
         <Navigation />
         {children}
-        <div className="flex flex-col items-center  mt-24 mb-10">
-          <div className="text-center text-xl  leading-7 text-black">
-            © KATJA KURZ LEVRING 2024 ALL RIGHTS RESERVED. <br />
+        <div className="flex flex-col items-center  mt-10 md:mt-24 mb-10">
+          <div className="text-center px-4 text-sm md:text-xl  leading-7 text-black">
+            © KATJA KURZ LEVRING 2024 ALL RIGHTS RESERVED.{" "}
+            <br className="hidden md:block" />
             ALL COMPANY LOGOS BELONG TO THEIR RESPECTIVE OWNERS.
           </div>
           <div className="mt-3">

@@ -18,11 +18,11 @@ export default async function Page() {
   return (
     <>
       <Hero>
-        <HeroTitle>Nordvision</HeroTitle>
+        <HeroTitle>Ethics & Society</HeroTitle>
         <HeroDescription>
-          Kunden ønskede et nyt, intuitivt brugerflow til My Nordvision, hvor
-          ansatte fra radiokanaler som DR og NRK kunne få detaljeret overblik
-          over projekter og afgive støtte til en evt. produktion.
+          Ethics & Society ønskede et touchup af design og UX på websitet.
+          Redesignet gav sitet nyt liv og en behagelig oplevelse for alle
+          besøgende.
         </HeroDescription>
         <ExternalLink />
 
@@ -38,13 +38,14 @@ export default async function Page() {
         <SectionTitle>Min rolle på projektet</SectionTitle>
         <SectionDescription>
           <p>
-            Som UX designer havde jeg ansvaret for at udvikle et effektivt og
-            brugervenligt flow for loggede brugere på My Nordvision. Opgaven
-            omfattede at skabe en overskuelig struktur, hvor man nemt kunne
-            navigere mellem projekter, finde de nødvendige oplysninger og afgive
-            evalueringer. Gennem brugertests og iterativ udvikling justerede vi
-            layout og interaktioner for at sikre en gnidningsfri oplevelse, der
-            opfyldte brugernes behov i deres daglige arbejde.
+            Kunden ønskede at både design og UX blev forfrisket og opdateret.
+            Opgaven lød på at forbedre det eksisterende design og optimere
+            brugeroplevelsen.På projektet håndterede jeg både UX-design, grafisk
+            design og kundekontakt. Min funktion som UX-designer fokuserede på
+            at forbedre brugeroplevelsen gennem intuitive grænseflader, mens jeg
+            som grafisk designer skabte visuelt tiltalende designs. Mit
+            engagement i direkte kundekontakt sikrede, at projektet ikke kun
+            opfyldte tekniske krav, men også kundens forventninger og mål.
           </p>
         </SectionDescription>
         <ImageRow
@@ -61,13 +62,14 @@ export default async function Page() {
         <SectionTitle>Design og aflevering</SectionTitle>
         <SectionDescription>
           <p>
-            I designet arbejdede vi med stor kreativ frihed, men inden for
-            Nordvisions eksisterende designguide for farver og fonte. Jeg
-            udviklede et komponentbibliotek, der gjorde det muligt at videreføre
-            designstilen på tværs af hele brugeroplevelsen, samtidig med at vi
-            skabte et detaljeret og dynamisk layout for hvert projekt. Efter
-            omfattende tests og tilpasninger, som blev gennemgået og godkendt
-            med Nordvision, blev den fulde løsning sendt afsted til udvikling.
+            Det eksisterende design havde allerede logo, typografi og en
+            farvepalette. Da hjemmesiden er en underhjemmeside til Ebrains var
+            logoet allerede udformet, og ikke en del af opgaven til redesignet.
+            Derfor arbejdede jeg med en ny farvepalette og hierarki på
+            typografien. Kunden ønskede grønne og blålige nuancer, så der var en
+            strømlinet sammenhæng mellem de andre underhjemmesider og Ebrains.
+            Redesignet udmundede i et opdateret design i form af nye farver og
+            hierarki af typografi, samt margen og struktur af indholdet.
           </p>
         </SectionDescription>
       </Section>

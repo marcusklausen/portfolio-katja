@@ -2,7 +2,6 @@ import React from "react";
 import Hero from "../_components/hero";
 import HeroTitle from "../_components/hero/hero-title";
 import HeroDescription from "../_components/hero/hero-description";
-import LinkWithArrow from "src/app/components/link-with-arrow";
 
 import dccEnergi1 from "./images/1.jpg";
 import dccEnergi2 from "./images/2.jpg";
@@ -13,6 +12,7 @@ import Section from "../_components/section";
 import SectionTitle from "../_components/section/section-title";
 import SectionDescription from "../_components/section/section-description";
 import ImageRow from "../_components/image-row";
+import ExternalLink from "../_components/hero/external-link";
 
 export default async function Page() {
   return (
@@ -24,9 +24,10 @@ export default async function Page() {
           og til hurtigt at skabe informativt indhold ved at kombinere
           forskellige moduler.
         </HeroDescription>
-        <LinkWithArrow href="#">Besøg website</LinkWithArrow>
+        <ExternalLink />
+
         <ImageRow
-          className="gap-10 mt-16"
+          className="mt-16"
           sources={[
             { src: dccEnergi1.src, alt: "DCC Energi" },
             { src: dccEnergi2.src, alt: "DCC Energi" },
@@ -37,16 +38,16 @@ export default async function Page() {
         <SectionTitle>Min rolle på projektet</SectionTitle>
         <SectionDescription>
           <p>
-            Landbrugsmedierne gav den opgave at der skulle sælges flere
-            abonnementer til Landbrugsavisen, og meget gerne alt indhold og
-            magasiner digitalt, da man ønsker at gå væk fra det fysiske blad.
-            Jeg var med på projektet som UX designer. Der blev brugt mange timer
-            på wireframes, nørdning med komponenter, prototyping som til sidst
-            skulle ende ud med en række brugertests. Vi fokuserede på
-            brugerrejsen fra første landingside, til slutpunktet hvor man gerne
-            skulle have sagt ja til et abonnement. Det handlede også om at finde
-            ud af hvad der betød noget for kunderne, og dette kunne man kun
-            finde ud af ved at snakke med nogle landmænd.
+            Jeg kom på projektet efter salgspitch og research. Derfor var der
+            allerede en masse grundarbejde, som jeg skulle være ajour med. Min
+            primære opgave bestod bl.a. i at udarbejde navigationsprincip og
+            designe wireframes med moduler og komponenter som var en del af
+            salget og opgaven. Der er to primære målgrupper, private og
+            erhvervsfolk, hvor indholdet naturligvis skulle kunne differentieres
+            efter behov, men have den samme struktur. Derudover var der et stort
+            ønske om at den grønne tilgang skulle inkorporeres. Det kom til at
+            hedde Energiomstilling. Og så blev der ellers bare produceret og
+            vist frem til styregruppemøder, projektgruppen og DCC Energi.
           </p>
         </SectionDescription>
         <ImageRow
@@ -74,7 +75,7 @@ export default async function Page() {
             { src: bottom1.src, alt: "DCC Energi iPhone app" },
             { src: bottom2.src, alt: "DCC Energi iPhone app" },
           ]}
-          className="container -mx-10"
+          className="container md:-mx-10"
         />
       </div>
     </>

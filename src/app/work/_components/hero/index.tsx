@@ -16,5 +16,10 @@ export default async function Hero({
     React.ReactElement<typeof HeroImageRow> & { type: typeof HeroImageRow }
   ];
 }) {
-  return <div className="container mx-auto py-14">{children}</div>;
+  return (
+    <div className="container mx-auto py-14 px-4 md:px-0 group">
+      <div data-hero></div>
+      {children}
+    </div>
+  );
 }

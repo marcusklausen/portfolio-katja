@@ -10,6 +10,7 @@ export type PortfolioGridItem =
       isEmpty?: never;
       className?: string;
       style?: React.CSSProperties;
+      externalLink: string;
     }
   | {
       isEmpty: true;

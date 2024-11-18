@@ -1,0 +1,66 @@
+export const MenuIcon = () => (
+  <svg
+    width="20"
+    height="14"
+    viewBox="0 0 20 14"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <line
+      x1="1"
+      y1="1"
+      x2="19"
+      y2="1"
+      stroke="white"
+      strokeWidth="2"
+      strokeLinecap="round"
+    />
+    <line
+      x1="1"
+      y1="7"
+      x2="19"
+      y2="7"
+      stroke="white"
+      strokeWidth="2"
+      strokeLinecap="round"
+    />
+    <line
+      x1="1"
+      y1="13"
+      x2="19"
+      y2="13"
+      stroke="white"
+      strokeWidth="2"
+      strokeLinecap="round"
+    />
+  </svg>
+);
+
+export const CloseIcon = () => (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <line
+      x1="6"
+      y1="18"
+      x2="18"
+      y2="6"
+      stroke="black"
+      strokeWidth="2"
+      strokeLinecap="round"
+    />
+    <line
+      x1="6"
+      y1="6"
+      x2="18"
+      y2="18"
+      stroke="black"
+      strokeWidth="2"
+      strokeLinecap="round"
+    />
+  </svg>
+);

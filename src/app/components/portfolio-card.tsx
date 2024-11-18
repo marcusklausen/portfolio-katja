@@ -6,10 +6,17 @@ import React from "react";
 import { PortfolioGridItem } from "src/types";
 import { portfolioCardHeightMap } from "src/utils";
 
-type Props = (PortfolioGridItem & { delay: number }) | { isEmpty: true };
+type Props =
+  | (Omit<Exclude<PortfolioGridItem, { isEmpty: true }>, "externalLink"> & {
+      delay: number;
+    })
+  | {
+      isEmpty: true;
+    };
 
 export default function PortfolioCard(props: Props) {
   if (props.isEmpty) return null;
+
   const newLocal = `relative  group bg-black ${
     props.imageSrc ? "overflow-hidden" : ""
   }`;

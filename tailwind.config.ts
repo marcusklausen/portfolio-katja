@@ -10,7 +10,7 @@ export default {
     extend: {
       container: {
         center: true,
-        padding: "0 6px",
+        padding: "",
       },
       colors: {
         background: "var(--background)",

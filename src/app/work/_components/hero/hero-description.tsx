@@ -5,5 +5,7 @@ export default function HeroDescription({
 }: {
   children: React.ReactNode;
 }) {
-  return <div className="text-3xl mb-9 max-w-[830px]">{children}</div>;
+  return (
+    <div className="text-2xl md:text-3xl mb-9 max-w-[830px]">{children}</div>
+  );
 }
