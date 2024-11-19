@@ -8,8 +8,8 @@ import img2 from "./images/img2.jpg";
 
 import bottom1 from "./images/bottom1.jpg";
 import bottom2 from "./images/bottom2.jpg";
-import purpose1 from "./images/purpose1.jpg";
-import purpose2 from "./images/purpose2.jpg";
+import purpose1 from "./images/purpose1.gif";
+import purpose2 from "./images/purpose2.gif";
 import role1 from "./images/role1.jpg";
 import role2 from "./images/role2.jpg";
 import Section from "../_components/section";

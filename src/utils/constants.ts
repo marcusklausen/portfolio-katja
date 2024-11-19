@@ -47,7 +47,7 @@ export const projects: PortfolioGridItem[] = [
     title: "Scleroseforeningen",
     slug: "scleroseforeningen",
     description: "Multisite der giver mening og værdi for brugerne",
-    imageSrc: "/images/home-grid/scleroseforeningen.jpg",
+    imageSrc: "/images/home-grid/scleroseforeningen.gif",
     height: "tall",
     style: { backgroundColor: "#6AD0FF", color: "#000" },
     externalLink: "https://www.scleroseforeningen.dk/om-os/",
