@@ -28,7 +28,7 @@ export default function PortfolioCard(props: Props) {
       className={newLocal}
     >
       <div
-        className={`group group/arrow transition-all relative ${props.className}`}
+        className={`group transition-all relative ${props.className}`}
         style={{
           height: portfolioCardHeightMap[props.height],
           ...props.style,
