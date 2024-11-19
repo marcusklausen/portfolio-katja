@@ -4,7 +4,7 @@ import MobileMenuButton from "./mobile-menu-button";
 const navItems = [
   { href: "/", label: "Portfolio" },
   { href: "/#about", label: "Om mig" },
-  { href: "mailto:katjakl@msn.com", label: "Kontakt" },
+  { href: "/#contact", label: "Kontakt" },
 ];
 
 export default function Navigation() {

@@ -26,13 +26,9 @@ export default function MasonryGrid({ projects }: MasonryGridProps) {
             !project.isEmpty && (
               <Link key={project.slug} href={`/work/${project.slug}`}>
                 <PortfolioCard
-                  title={project.title}
-                  description={project.description as string}
+                  {...project}
                   delay={index * 0.1}
-                  className={project.className}
-                  slug={project.slug as string}
                   height={"short"}
-                  style={project.style}
                 />
               </Link>
             )
@@ -48,16 +44,7 @@ export default function MasonryGrid({ projects }: MasonryGridProps) {
                 <div key={"empty_" + index} className=" w-full"></div>
               ) : (
                 <Link key={project.slug} href={`/work/${project.slug}`}>
-                  <PortfolioCard
-                    title={project.title}
-                    description={project.description as string}
-                    delay={index * 0.1}
-                    className={project.className}
-                    slug={project.slug as string}
-                    height={project.height}
-                    style={project.style}
-                    imageSrc={project.imageSrc}
-                  />
+                  <PortfolioCard delay={index * 0.1} {...project} />
                 </Link>
               )
             )}

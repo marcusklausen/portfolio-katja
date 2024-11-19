@@ -52,8 +52,8 @@ export default async function Page() {
         <ImageRow
           className="mt-16"
           sources={[
-            { src: img1.src, alt: "Ethics and Society" },
-            { src: img2.src, alt: "Ethics and Society" },
+            { src: img1, alt: "Ethics and Society" },
+            { src: img2, alt: "Ethics and Society" },
           ]}
         />
       </Hero>
@@ -73,11 +73,11 @@ export default async function Page() {
         <ImageRow
           sources={[
             {
-              src: purpose1.src,
+              src: purpose1,
               alt: "Studio N.A.A.L website",
             },
             {
-              src: purpose2.src,
+              src: purpose2,
               alt: "Studio N.A.A.L Instagram",
             },
           ]}
@@ -101,8 +101,8 @@ export default async function Page() {
         <div className="container mx-auto">
           <ImageRow
             sources={[
-              { src: role1.src, alt: "Studio N.A.A.L website" },
-              { src: role2.src, alt: "Studio N.A.A.L website" },
+              { src: role1, alt: "Studio N.A.A.L website" },
+              { src: role2, alt: "Studio N.A.A.L website" },
             ]}
             className="gap-5 mt-16"
           />
@@ -124,8 +124,8 @@ export default async function Page() {
       </Section>
       <ImageRow
         sources={[
-          { src: bottom1.src, alt: "Studio N.A.A.L website" },
-          { src: bottom2.src, alt: "Studio N.A.A.L website" },
+          { src: bottom1, alt: "Studio N.A.A.L website" },
+          { src: bottom2, alt: "Studio N.A.A.L website" },
         ]}
         className="mx-auto justify-center"
         imageClassName="w-full"

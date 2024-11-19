@@ -48,8 +48,8 @@ export default async function Page() {
         <ImageRow
           className="mt-16"
           sources={[
-            { src: dccEnergi1.src, alt: "DCC Energi" },
-            { src: dccEnergi2.src, alt: "DCC Energi" },
+            { src: dccEnergi1, alt: "DCC Energi" },
+            { src: dccEnergi2, alt: "DCC Energi" },
           ]}
         />
       </Hero>
@@ -70,7 +70,7 @@ export default async function Page() {
           </p>
         </SectionDescription>
         <ImageRow
-          sources={[{ src: largeImage.src, alt: "DCC Energi iPhone app" }]}
+          sources={[{ src: largeImage, alt: "DCC Energi iPhone app" }]}
           className="justify-center mt-20"
         />
       </Section>
@@ -91,8 +91,8 @@ export default async function Page() {
       <div className="container mx-auto">
         <ImageRow
           sources={[
-            { src: bottom1.src, alt: "DCC Energi iPhone app" },
-            { src: bottom2.src, alt: "DCC Energi iPhone app" },
+            { src: bottom1, alt: "DCC Energi iPhone app" },
+            { src: bottom2, alt: "DCC Energi iPhone app" },
           ]}
           className="container md:-mx-10"
         />

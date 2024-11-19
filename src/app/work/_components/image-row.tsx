@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { StaticImageData } from "next/image";
 import React from "react";
 import { cn } from "src/utils";
 import { motion } from "framer-motion";
@@ -9,12 +10,12 @@ export default function ImageRow({
   sources,
   className,
   imageClassName,
-  priority = false,
-}: {
-  sources: { src: string; alt: string }[];
+}: // priority = false,
+{
+  sources: { src: StaticImageData; alt: string }[];
   className?: string;
   imageClassName?: string;
-  priority?: boolean;
+  // priority?: boolean;
 }) {
   return (
     <motion.div
@@ -30,11 +31,11 @@ export default function ImageRow({
     >
       {sources.map((source) => (
         <Image
-          priority={priority}
-          loading={priority ? "eager" : "lazy"}
+          // priority={priority}
+          loading="eager"
           src={source.src}
           alt={source.alt}
-          key={source.src}
+          key={source.src.src}
           width={1200}
           height={500}
           quality={80}
