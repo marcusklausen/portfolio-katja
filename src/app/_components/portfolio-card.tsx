@@ -38,7 +38,7 @@ export default function PortfolioCard(props: Props) {
           className={`space-y-6 flex flex-col  justify-end h-full p-6 group/arrow ${
             props.imageSrc
               ? "translate-y-1/2 group-hover:translate-y-0 transition-transform duration-300"
-              : "text-white"
+              : ""
           }`}
         >
           <div className="space-y-4 ">
