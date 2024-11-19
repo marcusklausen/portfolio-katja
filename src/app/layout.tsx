@@ -4,6 +4,9 @@ import Navigation from "./_components/navigation";
 import { campton } from "./fonts";
 
 export const metadata: Metadata = {
+  icons: {
+    icon: '/favicon.svg'
+  }
   title: "Katja Kurz Levring - UX/UI Designer",
   description:
     "UX/UI designer med fokus på brugeroplevelser der forener teknologi med brugernes behov. Se portfolio med projekter fra DCC Energi, CPH Business, Scleroseforeningen og flere.",
