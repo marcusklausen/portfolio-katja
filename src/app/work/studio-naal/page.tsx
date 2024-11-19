@@ -82,7 +82,7 @@ export default async function Page() {
             },
           ]}
           className="justify-start mt-20 gap-10"
-          imageClassName="max-w-[400px]"
+          imageClassName="md:max-w-[375px]"
         />
       </Section>
       <Section className="">
@@ -112,7 +112,11 @@ export default async function Page() {
         <SectionTitle>Design og aflevering</SectionTitle>
         <SectionDescription>
           <p>
-          Projektet udmundede i en færdig designet webløsning, hertil en masse content både til websitet og Instagram. Hertil en helt ny styleguide. Projektet sluttede også med en rapport over hele projektet. Hvis man har lyst til at læse den, er de 114 sider vedhæftet (uden bilag). 
+            Projektet udmundede i en færdig designet webløsning, hertil en masse
+            content både til websitet og Instagram. Hertil en helt ny
+            styleguide. Projektet sluttede også med en rapport over hele
+            projektet. Hvis man har lyst til at læse den, er de 114 sider
+            vedhæftet (uden bilag).
           </p>
         </SectionDescription>
       </Section>
