@@ -1,18 +1,17 @@
-import MasonryGrid from "./components/masonry-grid";
-import LinkWithArrow from "./components/link-with-arrow";
-
+import MasonryGrid from "./_components/masonry-grid";
+import LinkWithArrow from "./_components/link-with-arrow";
+import AnimatedSection from "./_components/animated-section";
 import Image from "next/image";
-
 import { projects } from "src/utils/constants";
 
 export default async function Page() {
   return (
     <main>
-      <section className="container px-4 md:px-0 mt-10 md:mt-20">
+      <AnimatedSection className="container px-4 md:px-0 mt-10 md:mt-20">
         <MasonryGrid projects={projects} />
-      </section>
+      </AnimatedSection>
 
-      <section className="mt-20 bg-background-secondary" id="about">
+      <AnimatedSection className="mt-20 bg-background-secondary" id="about">
         <div className="container px-4 md:px-0 py-20">
           <h1 className="text-3xl md:text-5xl font-medium text-[#48392A]">
             About
@@ -45,8 +44,9 @@ export default async function Page() {
             </p>
           </div>
         </div>
-      </section>
-      <section className="mt-20">
+      </AnimatedSection>
+
+      <AnimatedSection className="mt-20" id="contact">
         <div className="container px-4 md:px-0 py-20">
           <h1 className="text-3xl md:text-5xl font-medium text-[#48392A]">
             Contact
@@ -90,7 +90,7 @@ export default async function Page() {
             />
           </div>
         </div>
-      </section>
+      </AnimatedSection>
     </main>
   );
 }

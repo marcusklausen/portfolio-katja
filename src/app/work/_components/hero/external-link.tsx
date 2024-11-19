@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 
-import LinkWithArrow from "src/app/components/link-with-arrow";
+import LinkWithArrow from "src/app/_components/link-with-arrow";
 import { usePathname } from "next/navigation";
 import { getCaseLink } from "src/utils";
 

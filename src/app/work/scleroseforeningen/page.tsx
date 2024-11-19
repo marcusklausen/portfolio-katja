@@ -48,8 +48,8 @@ export default async function Page() {
         <ImageRow
           className="mt-16"
           sources={[
-            { src: img1.src, alt: "Ethics and Society" },
-            { src: img2.src, alt: "Ethics and Society" },
+            { src: img1, alt: "Ethics and Society" },
+            { src: img2, alt: "Ethics and Society" },
           ]}
         />
       </Hero>
@@ -71,7 +71,7 @@ export default async function Page() {
         <ImageRow
           sources={[
             {
-              src: largeImage.src,
+              src: largeImage,
               alt: "Ethics and Society phone app concept",
             },
           ]}
@@ -99,8 +99,8 @@ export default async function Page() {
       <div className="container mx-auto">
         <ImageRow
           sources={[
-            { src: bottom1.src, alt: "DCC Energi iPhone app" },
-            { src: bottom2.src, alt: "DCC Energi iPhone app" },
+            { src: bottom1, alt: "DCC Energi iPhone app" },
+            { src: bottom2, alt: "DCC Energi iPhone app" },
           ]}
           className=""
         />

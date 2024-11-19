@@ -49,8 +49,8 @@ export default async function Page() {
         <ImageRow
           className="mt-16"
           sources={[
-            { src: img1.src, alt: "Cphbusiness" },
-            { src: img2.src, alt: "Cphbusiness" },
+            { src: img1, alt: "Cphbusiness" },
+            { src: img2, alt: "Cphbusiness" },
           ]}
         />
       </Hero>
@@ -79,8 +79,8 @@ export default async function Page() {
       <div className="container mx-auto ">
         <ImageRow
           sources={[
-            { src: bottom1.src, alt: "Cphbusiness" },
-            { src: bottom2.src, alt: "Cphbusiness" },
+            { src: bottom1, alt: "Cphbusiness" },
+            { src: bottom2, alt: "Cphbusiness" },
           ]}
           className=""
         />

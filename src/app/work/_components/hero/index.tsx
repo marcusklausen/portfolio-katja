@@ -1,7 +1,7 @@
 import React from "react";
 import HeroTitle from "./hero-title";
 import HeroDescription from "./hero-description";
-import LinkWithArrow from "src/app/components/link-with-arrow";
+import LinkWithArrow from "src/app/_components/link-with-arrow";
 import HeroImageRow from "../image-row";
 
 export default async function Hero({

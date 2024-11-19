@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navigation from "./components/navigation";
+import Navigation from "./_components/navigation";
 import { campton } from "./fonts";
 
 export const metadata: Metadata = {

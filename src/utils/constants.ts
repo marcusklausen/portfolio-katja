@@ -72,7 +72,7 @@ export const projects: PortfolioGridItem[] = [
     slug: "studio-naal",
     description: "Nyt og fremtidssikret Wordpress-site",
     imageSrc: "/images/home-grid/studio-naal.jpg",
-    height: "medium",
+    height: "short",
     style: { backgroundColor: "#001FDD", color: "white" },
     externalLink: "https://studionaal.netlify.app/",
   },
