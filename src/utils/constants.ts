@@ -17,16 +17,16 @@ export const projects: PortfolioGridItem[] = [
   {
     title: "Ethics & Society",
     slug: "ethics-and-society",
-    description: "Nyt og fremtidssikret Wordpress-site",
+    description: "Touch-up af UX og UI",
     imageSrc: "/images/home-grid/ethics-and-society.jpg",
     height: "short",
     style: { backgroundColor: "#C8E6F3", color: "#000" },
     externalLink: "https://ebrainsethicsandsociety.tekno.dk/",
   },
   {
-    title: "Landbrugsavisen",
+    title: "LandbrugsMedierne",
     slug: "landbrugsavisen",
-    description: "Nyt og fremtidssikret Wordpress-site",
+    description: "Kvæg, Gris og TraktorTech samlet i Alt Digitalt",
     height: "short",
     style: { backgroundColor: "#076171", color: "white" },
     externalLink:
@@ -35,7 +35,7 @@ export const projects: PortfolioGridItem[] = [
   {
     title: "CPH Business",
     slug: "cph-business",
-    description: "Nyt og fremtidssikret Wordpress-site",
+    description: "Moderne, legende og dynamisk nyt website",
     height: "medium",
     style: {
       background: "linear-gradient(45deg,  #6410F5, #D414B7)",
@@ -46,7 +46,7 @@ export const projects: PortfolioGridItem[] = [
   {
     title: "Scleroseforeningen",
     slug: "scleroseforeningen",
-    description: "Nyt og fremtidssikret Wordpress-site",
+    description: "Multisite der giver mening og værdi for brugerne",
     imageSrc: "/images/home-grid/scleroseforeningen.jpg",
     height: "tall",
     style: { backgroundColor: "#6AD0FF", color: "#000" },
@@ -55,7 +55,7 @@ export const projects: PortfolioGridItem[] = [
   {
     title: "Nordvision",
     slug: "nordvision",
-    description: "Nyt og fremtidssikret Wordpress-site",
+    description: "Nytænkende platform, My Nordvision",
     imageSrc: "/images/home-grid/nordvision.jpg",
     height: "medium",
     style: { backgroundColor: "#35B6AB", color: "#FFF" },
@@ -68,9 +68,9 @@ export const projects: PortfolioGridItem[] = [
     isEmpty: true,
   },
   {
-    title: "Studio Naal",
+    title: "Studio N.A.A.L",
     slug: "studio-naal",
-    description: "Nyt og fremtidssikret Wordpress-site",
+    description: "4. semesters eksamensopgave på multimediedesign",
     imageSrc: "/images/home-grid/studio-naal.jpg",
     height: "short",
     style: { backgroundColor: "#001FDD", color: "white" },
