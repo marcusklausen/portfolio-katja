@@ -16,7 +16,7 @@ import ExternalLink from "../_components/hero/external-link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Landbrugsavisen Case - Katja Kurz Levring",
+  title: "Landbrugsavisen Case - Katja Kurz Levring ",
   description:
     "Landbrugsmedierne gav den opgave at der skulle sælges flere abonnementer til Landbrugsavisen, og meget gerne alt indhold og magasiner digitalt.",
   openGraph: {
