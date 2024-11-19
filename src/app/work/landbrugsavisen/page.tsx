@@ -16,13 +16,13 @@ import ExternalLink from "../_components/hero/external-link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Landbrugsavisen Case - Katja Kurz Levring ",
+  title: "LandbrugsMedierne Case - Katja Kurz Levring ",
   description:
-    "Landbrugsmedierne gav den opgave at der skulle sælges flere abonnementer til Landbrugsavisen, og meget gerne alt indhold og magasiner digitalt.",
+    "LandbrugsMedierne gav den opgave at der skulle sælges flere abonnementer til LandbrugsAvisen, og meget gerne alt indhold og magasiner digitalt.",
   openGraph: {
-    title: "Landbrugsavisen Case - Katja Kurz Levring",
+    title: "LandbrugsAvisen Case - Katja Kurz Levring",
     description:
-      "Landbrugsmedierne gav den opgave at der skulle sælges flere abonnementer til Landbrugsavisen digitalt.",
+      "LandbrugsMedierne gav den opgave at der skulle sælges flere abonnementer til LandbrugsAvisen digitalt.",
     images: [
       {
         url: "/images/home-grid/landbrugsavisen.jpg",
@@ -37,19 +37,17 @@ export default async function Page() {
   return (
     <>
       <Hero>
-        <HeroTitle>Ethics & Society</HeroTitle>
+        <HeroTitle>LandbrugsMedierne</HeroTitle>
         <HeroDescription>
-          Ethics & Society ønskede et touchup af design og UX på websitet.
-          Redesignet gav sitet nyt liv og en behagelig oplevelse for alle
-          besøgende.
+        LandbrugsMedierne havde brug for hjælp til at udvikle en ny abonnement side til Landbrugsavisen. Her ønskede de at sætte fokus på en samlet pakke, Alt Digitalt. 
         </HeroDescription>
         <ExternalLink />
 
         <ImageRow
           className="mt-16"
           sources={[
-            { src: img1, alt: "Ethics and Society" },
-            { src: img2, alt: "Ethics and Society" },
+            { src: img1, alt: "LandbrugsMedierne" },
+            { src: img2, alt: "LandbrugsMedierne" },
           ]}
         />
       </Hero>
@@ -79,7 +77,7 @@ export default async function Page() {
           sources={[
             {
               src: largeImage,
-              alt: "Ethics and Society phone app concept",
+              alt: "LandbrugsMedierne web concept",
             },
           ]}
           className="justify-center mt-20"
@@ -101,8 +99,8 @@ export default async function Page() {
       <div className="container mx-auto">
         <ImageRow
           sources={[
-            { src: bottom1, alt: "DCC Energi iPhone app" },
-            { src: bottom2, alt: "DCC Energi iPhone app" },
+            { src: bottom1, alt: "Traktor på marken" },
+            { src: bottom2, alt: "LandbrugsMedierne web" },
           ]}
           className=""
         />

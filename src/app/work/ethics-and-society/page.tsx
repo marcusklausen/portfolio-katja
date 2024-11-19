@@ -95,8 +95,8 @@ export default async function Page() {
       <div className="container mx-auto">
         <ImageRow
           sources={[
-            { src: bottom1, alt: "DCC Energi iPhone app" },
-            { src: bottom2, alt: "DCC Energi iPhone app" },
+            { src: bottom1, alt: "Ethics and Society" },
+            { src: bottom2, alt: "Ethics and Society" },
           ]}
           className=""
         />

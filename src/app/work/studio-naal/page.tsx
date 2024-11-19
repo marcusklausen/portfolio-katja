@@ -52,8 +52,8 @@ export default async function Page() {
         <ImageRow
           className="mt-16"
           sources={[
-            { src: img1, alt: "Ethics and Society" },
-            { src: img2, alt: "Ethics and Society" },
+            { src: img1, alt: "Studio N.A.A.L" },
+            { src: img2, alt: "Studio N.A.A.L" },
           ]}
         />
       </Hero>
@@ -112,13 +112,7 @@ export default async function Page() {
         <SectionTitle>Design og aflevering</SectionTitle>
         <SectionDescription>
           <p>
-            I designet arbejdede vi med stor kreativ frihed, men inden for
-            Nordvisions eksisterende designguide for farver og fonte. Jeg
-            udviklede et komponentbibliotek, der gjorde det muligt at videreføre
-            designstilen på tværs af hele brugeroplevelsen, samtidig med at vi
-            skabte et detaljeret og dynamisk layout for hvert projekt. Efter
-            omfattende tests og tilpasninger, som blev gennemgået og godkendt
-            med Nordvision, blev den fulde løsning sendt afsted til udvikling.
+          Projektet udmundede i en færdig designet webløsning, hertil en masse content både til websitet og Instagram. Hertil en helt ny styleguide. Projektet sluttede også med en rapport over hele projektet. Hvis man har lyst til at læse den, er de 114 sider vedhæftet (uden bilag). 
           </p>
         </SectionDescription>
       </Section>

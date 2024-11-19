@@ -48,8 +48,8 @@ export default async function Page() {
         <ImageRow
           className="mt-16"
           sources={[
-            { src: img1, alt: "Ethics and Society" },
-            { src: img2, alt: "Ethics and Society" },
+            { src: img1, alt: "Scleroseforeningen website" },
+            { src: img2, alt: "Scleroseforeningen logo" },
           ]}
         />
       </Hero>
@@ -72,7 +72,7 @@ export default async function Page() {
           sources={[
             {
               src: largeImage,
-              alt: "Ethics and Society phone app concept",
+              alt: "Scleroseforeningen app design",
             },
           ]}
           className="justify-center mt-20"
@@ -99,8 +99,8 @@ export default async function Page() {
       <div className="container mx-auto">
         <ImageRow
           sources={[
-            { src: bottom1, alt: "DCC Energi iPhone app" },
-            { src: bottom2, alt: "DCC Energi iPhone app" },
+            { src: bottom1, alt: "Scleroseforeningen logo" },
+            { src: bottom2, alt: "Scleroseforeningen web" },
           ]}
           className=""
         />

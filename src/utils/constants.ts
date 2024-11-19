@@ -33,7 +33,7 @@ export const projects: PortfolioGridItem[] = [
       "https://alt.landbrugsmedierne.dk/?_gl=1*c0pn8i*_gcl_au*NTgxOTgzMTU5LjE3MzAyMDI1MjE.*_ga*MTEzNjAwNDgwNy4xNzMwMjAyNTIx*_ga_ZDJYQW4D0V*MTczMTk0NjcyNi43LjAuMTczMTk0NjcyNi42MC4wLjA.&article_tag=null",
   },
   {
-    title: "CPH Business",
+    title: "Cphbusiness",
     slug: "cph-business",
     description: "Moderne, legende og dynamisk nyt website",
     height: "medium",
