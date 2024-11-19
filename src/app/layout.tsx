@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: "Katja Kurz Levring - UX/UI Designer",
   description:
     "UX/UI designer med fokus på brugeroplevelser der forener teknologi med brugernes behov. Se portfolio med projekter fra DCC Energi, CPH Business, Scleroseforeningen og flere.",
+  icons: {
+    icon: "/favicon.svg",
+  },
   openGraph: {
     title: "Katja Kurz Levring - UX/UI Designer",
     description:
