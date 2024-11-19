@@ -53,7 +53,7 @@ export default async function Page() {
           ]}
         />
       </Hero>
-      <Section className="bg-background-secondary">
+      <Section hasBackground>
         <SectionTitle>Min rolle på projektet</SectionTitle>
         <SectionDescription>
           <p>
@@ -94,7 +94,7 @@ export default async function Page() {
             { src: bottom1, alt: "DCC Energi iPhone app" },
             { src: bottom2, alt: "DCC Energi iPhone app" },
           ]}
-          className="container md:-mx-10"
+          className="container gap-4"
         />
       </div>
     </>

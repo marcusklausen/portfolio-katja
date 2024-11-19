@@ -102,7 +102,7 @@ export default async function Page() {
             { src: bottom1, alt: "Scleroseforeningen logo" },
             { src: bottom2, alt: "Scleroseforeningen web" },
           ]}
-          className=""
+          className="gap-4"
         />
       </div>
     </>

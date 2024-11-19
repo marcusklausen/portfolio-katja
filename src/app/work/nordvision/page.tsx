@@ -96,7 +96,7 @@ export default async function Page() {
             { src: bottom1, alt: "Nordvision webflow" },
             { src: bottom2, alt: "Nordvision login design" },
           ]}
-          className=""
+          className="gap-4"
         />
       </div>
     </>

@@ -98,7 +98,7 @@ export default async function Page() {
             { src: bottom1, alt: "Ethics and Society" },
             { src: bottom2, alt: "Ethics and Society" },
           ]}
-          className=""
+          className="gap-4"
         />
       </div>
     </>
