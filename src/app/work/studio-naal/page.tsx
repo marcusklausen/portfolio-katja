@@ -4,7 +4,7 @@ import HeroTitle from "../_components/hero/hero-title";
 import HeroDescription from "../_components/hero/hero-description";
 
 import img1 from "./images/img1.jpg";
-import img2 from "./images/img2.jpg";
+import img2 from "./images/img2.gif";
 
 import bottom1 from "./images/bottom1.jpg";
 import bottom2 from "./images/bottom2.jpg";
