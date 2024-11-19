@@ -36,11 +36,7 @@ export default async function Page() {
               </LinkWithArrow>
             </div>
             <p className="leading-relaxed max-w-[710px] text-lg md:text-2xl">
-              Jeg hedder Katja og er 26 år. Jeg har en baggrund som
-              multimediedesigner og arbejder nu som UX/UI designer hos Minuba.
-              Min passion ligger i at skabe brugeroplevelser, der forener
-              teknologi med brugernes behov. Jeg ønsker at skabe digitale
-              løsninger, der tilføjer værdi gennem min lidenskab for design.
+            Jeg hedder Katja, er 26 år og UX/UI-designer med en baggrund som multimediedesigner. Jeg studerer Digital Konceptudvikling på KEA, og brænder for at skabe intuitive og værdiskabende digitale løsninger, der forener teknologi og brugernes behov. Med en proaktiv og detaljeorienteret tilgang værdsætter jeg samarbejde og stræber efter at udvikle mine designfærdigheder i dynamiske og kreative miljøer.
             </p>
           </div>
         </div>
