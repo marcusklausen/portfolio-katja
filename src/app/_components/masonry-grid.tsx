@@ -27,6 +27,7 @@ export default function MasonryGrid({ projects }: MasonryGridProps) {
               <Link key={project.slug} href={`/work/${project.slug}`}>
                 <PortfolioCard
                   {...project}
+                  imageSrc={undefined}
                   delay={index * 0.1}
                   height={"short"}
                 />
