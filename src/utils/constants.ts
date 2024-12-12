@@ -76,7 +76,7 @@ export const projects: PortfolioGridItem[] = [
     slug: "ethics-and-society",
     description: "Touch-up af UX og UI",
     imageSrc: "/images/home-grid/ethics-and-society.jpg",
-    height: "short",
+    height: "medium",
     style: { backgroundColor: "#C8E6F3", color: "#000" },
     externalLink: "https://ebrainsethicsandsociety.tekno.dk/",
   },
