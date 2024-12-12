@@ -4,7 +4,7 @@ import HeroTitle from "../_components/hero/hero-title";
 import HeroDescription from "../_components/hero/hero-description";
 
 import dccEnergi1 from "./images/1.jpg";
-import dccEnergi2 from "./images/2.png";
+import dccEnergi2 from "./images/2.jpg";
 import largeImage from "./images/large.jpg";
 import bottom1 from "./images/bottom1.jpg";
 import bottom2 from "./images/bottom2.jpg";
