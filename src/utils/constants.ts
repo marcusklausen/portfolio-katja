@@ -5,7 +5,7 @@ export const projects: PortfolioGridItem[] = [
     title: "Duckwise X Børneriget Fonden",
     slug: "duckwise",
     description: "Sammenspil mellem fremtidens teknologi og børnehospital i verdensklasse",
-    imageSrc: "/images/home-grid/dcc-energi.jpg",
+    imageSrc: "/images/home-grid/duckwise.jpg",
     height: "medium",
     style: { backgroundColor: "#FFF6A1", color: "#000" },
     externalLink:
