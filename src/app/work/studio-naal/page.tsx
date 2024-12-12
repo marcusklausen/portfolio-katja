@@ -126,7 +126,7 @@ export default async function Page() {
           { src: bottom2, alt: "Studio N.A.A.L website" },
         ]}
         className="mx-auto justify-center"
-        imageClassName="w-full"
+        // imageClassName="w-full"
       />
     </>
   );

@@ -102,7 +102,7 @@ export default async function Page() {
             { src: bottom1, alt: "Traktor på marken" },
             { src: bottom2, alt: "LandbrugsMedierne web" },
           ]}
-          className=""
+          className="gap-4"
         />
       </div>
     </>
