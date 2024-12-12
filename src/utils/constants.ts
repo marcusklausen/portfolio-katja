@@ -12,17 +12,22 @@ export const projects: PortfolioGridItem[] = [
       "https://www.youtube.com/watch?app=desktop&v=c-Cpfqv8t8E",
   },
   {
-    title: "DCC Energi",
-    slug: "dcc-energi",
-    description: "Nyt og fremtidssikret Wordpress-site",
-    imageSrc: "/images/home-grid/dcc-energi.jpg",
-    height: "tall",
-    style: {
-      background: "linear-gradient(45deg, #004781, #007DC5)",
-      color: "white",
-    },
+    title: "LandbrugsMedierne",
+    slug: "landbrugsavisen",
+    description: "Kvæg, Gris og TraktorTech samlet i Alt Digitalt",
+    height: "short",
+    style: { backgroundColor: "#076171", color: "white" },
     externalLink:
-      "https://www.dccenergi.dk/privat/?gad_source=1&gclid=Cj0KCQiA6Ou5BhCrARIsAPoTxrDQBQUcFC47DGSIug1GJg9vpjMUJ5lDF_9S2aYrZVd3VulCHbAiw5UaAikCEALw_wcB",
+      "https://alt.landbrugsmedierne.dk/?_gl=1*c0pn8i*_gcl_au*NTgxOTgzMTU5LjE3MzAyMDI1MjE.*_ga*MTEzNjAwNDgwNy4xNzMwMjAyNTIx*_ga_ZDJYQW4D0V*MTczMTk0NjcyNi43LjAuMTczMTk0NjcyNi42MC4wLjA.&article_tag=null",
+  },
+  {
+    title: "Scleroseforeningen",
+    slug: "scleroseforeningen",
+    description: "Multisite der giver mening og værdi for brugerne",
+    imageSrc: "/images/home-grid/scleroseforeningen.gif",
+    height: "tall",
+    style: { backgroundColor: "#6AD0FF", color: "#000" },
+    externalLink: "https://www.scleroseforeningen.dk/om-os/",
   },
   {
     title: "Ethics & Society",
@@ -34,33 +39,17 @@ export const projects: PortfolioGridItem[] = [
     externalLink: "https://ebrainsethicsandsociety.tekno.dk/",
   },
   {
-    title: "LandbrugsMedierne",
-    slug: "landbrugsavisen",
-    description: "Kvæg, Gris og TraktorTech samlet i Alt Digitalt",
-    height: "short",
-    style: { backgroundColor: "#076171", color: "white" },
-    externalLink:
-      "https://alt.landbrugsmedierne.dk/?_gl=1*c0pn8i*_gcl_au*NTgxOTgzMTU5LjE3MzAyMDI1MjE.*_ga*MTEzNjAwNDgwNy4xNzMwMjAyNTIx*_ga_ZDJYQW4D0V*MTczMTk0NjcyNi43LjAuMTczMTk0NjcyNi42MC4wLjA.&article_tag=null",
-  },
-  {
-    title: "Cphbusiness",
-    slug: "cph-business",
-    description: "Moderne, legende og dynamisk nyt website",
-    height: "medium",
+    title: "DCC Energi",
+    slug: "dcc-energi",
+    description: "Nyt og fremtidssikret Wordpress-site",
+    imageSrc: "/images/home-grid/dcc-energi.jpg",
+    height: "tall",
     style: {
-      background: "linear-gradient(45deg,  #6410F5, #D414B7)",
+      background: "linear-gradient(45deg, #004781, #007DC5)",
       color: "white",
     },
-    externalLink: "https://www.cphbusiness.dk/",
-  },
-  {
-    title: "Scleroseforeningen",
-    slug: "scleroseforeningen",
-    description: "Multisite der giver mening og værdi for brugerne",
-    imageSrc: "/images/home-grid/scleroseforeningen.gif",
-    height: "tall",
-    style: { backgroundColor: "#6AD0FF", color: "#000" },
-    externalLink: "https://www.scleroseforeningen.dk/om-os/",
+    externalLink:
+      "https://www.dccenergi.dk/privat/?gad_source=1&gclid=Cj0KCQiA6Ou5BhCrARIsAPoTxrDQBQUcFC47DGSIug1GJg9vpjMUJ5lDF_9S2aYrZVd3VulCHbAiw5UaAikCEALw_wcB",
   },
   {
     title: "Nordvision",
@@ -85,5 +74,16 @@ export const projects: PortfolioGridItem[] = [
     height: "short",
     style: { backgroundColor: "#001FDD", color: "white" },
     externalLink: "https://studionaal.netlify.app/",
+  },
+  {
+    title: "Cphbusiness",
+    slug: "cph-business",
+    description: "Moderne, legende og dynamisk nyt website",
+    height: "medium",
+    style: {
+      background: "linear-gradient(45deg,  #6410F5, #D414B7)",
+      color: "white",
+    },
+    externalLink: "https://www.cphbusiness.dk/",
   },
 ];
