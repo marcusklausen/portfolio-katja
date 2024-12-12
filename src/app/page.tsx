@@ -14,7 +14,7 @@ export default async function Page() {
       <AnimatedSection className="mt-20 bg-background-secondary" id="about">
         <div className="container px-4 md:px-0 py-20">
           <h1 className="text-3xl md:text-5xl font-medium text-[#48392A]">
-            About
+            Om mig
           </h1>
 
           <div className="flex flex-col md:flex-row text-xl md:text-2xl md:justify-between md:items-end gap-10 mt-10 md:mt-[260px]">
@@ -45,7 +45,7 @@ export default async function Page() {
       <AnimatedSection className="mt-20" id="contact">
         <div className="container px-4 md:px-0 py-20">
           <h1 className="text-3xl md:text-5xl font-medium text-[#48392A]">
-            Contact
+            Kontakt
           </h1>
 
           <div className="grid md:grid-cols-2 text-2xl  gap-10 mt-10 md:mt-20 ">
