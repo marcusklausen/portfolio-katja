@@ -2,6 +2,16 @@ import { PortfolioGridItem } from "src/types";
 
 export const projects: PortfolioGridItem[] = [
   {
+    title: "Duckwise X Børneriget Fonden",
+    slug: "duckwise",
+    description: "Sammenspil mellem fremtidens teknologi og børnehospital i verdensklasse",
+    imageSrc: "/images/home-grid/dcc-energi.jpg",
+    height: "medium",
+    style: { backgroundColor: "#FFF6A1", color: "#000" },
+    externalLink:
+      "https://www.youtube.com/watch?app=desktop&v=c-Cpfqv8t8E",
+  },
+  {
     title: "DCC Energi",
     slug: "dcc-energi",
     description: "Nyt og fremtidssikret Wordpress-site",
