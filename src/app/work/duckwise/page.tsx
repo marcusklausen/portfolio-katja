@@ -25,7 +25,7 @@ export const metadata: Metadata = {
       "Duckwise ønskede et ny og moderne website. Vi skabte fleksibilitet og til hurtigt at skabe informativt indhold ved at kombinere forskellige moduler.",
     images: [
       {
-        url: "/images/home-grid/dcc-energi.jpg",
+        url: "/images/home-grid/duckwise.jpg",
         width: 1200,
         height: 630,
       },
@@ -37,7 +37,7 @@ export default async function Page() {
   return (
     <>
       <Hero>
-        <HeroTitle>Duckwise</HeroTitle>
+        <HeroTitle>Duckwise X Børneriget Fonden</HeroTitle>
         <HeroDescription>
           Duckwise ønskede et ny og moderne website. Vi skabte fleksibilitet
           og til hurtigt at skabe informativt indhold ved at kombinere
@@ -48,13 +48,13 @@ export default async function Page() {
         <ImageRow
           className="mt-16"
           sources={[
-            { src: dccEnergi1, alt: "DCC Energi" },
-            { src: dccEnergi2, alt: "DCC Energi" },
+            { src: dccEnergi1, alt: "Mary Elizabeth Hospital" },
+            { src: dccEnergi2, alt: "Duckwise Logo med sort baggrund" },
           ]}
         />
       </Hero>
       <Section hasBackground>
-        <SectionTitle>Min rolle på projektet</SectionTitle>
+        <SectionTitle>Opgavens formål</SectionTitle>
         <SectionDescription>
           <p>
             Jeg kom på projektet efter salgspitch og research. Derfor var der
@@ -70,12 +70,12 @@ export default async function Page() {
           </p>
         </SectionDescription>
         <ImageRow
-          sources={[{ src: largeImage, alt: "DCC Energi iPhone app" }]}
+          sources={[{ src: largeImage, alt: "Persona" }]}
           className="justify-center mt-20"
         />
       </Section>
       <Section className="">
-        <SectionTitle>Design og aflevering</SectionTitle>
+        <SectionTitle>Koncept</SectionTitle>
         <SectionDescription>
           <p>
             Mod leveringsdato og designet var blevet udformet, hjalp jeg med at
@@ -91,8 +91,8 @@ export default async function Page() {
       <div className="container mx-auto">
         <ImageRow
           sources={[
-            { src: bottom1, alt: "DCC Energi iPhone app" },
-            { src: bottom2, alt: "DCC Energi iPhone app" },
+            { src: bottom1, alt: "Flyver om projektet" },
+            { src: bottom2, alt: "Mobile visning med indkommende opkald" },
           ]}
           className="container gap-4"
         />
