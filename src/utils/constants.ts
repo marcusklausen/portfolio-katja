@@ -30,13 +30,15 @@ export const projects: PortfolioGridItem[] = [
     externalLink: "https://www.scleroseforeningen.dk/om-os/",
   },
   {
-    title: "Ethics & Society",
-    slug: "ethics-and-society",
-    description: "Touch-up af UX og UI",
-    imageSrc: "/images/home-grid/ethics-and-society.jpg",
-    height: "short",
-    style: { backgroundColor: "#C8E6F3", color: "#000" },
-    externalLink: "https://ebrainsethicsandsociety.tekno.dk/",
+    title: "Cphbusiness",
+    slug: "cph-business",
+    description: "Moderne, legende og dynamisk nyt website",
+    height: "medium",
+    style: {
+      background: "linear-gradient(45deg,  #6410F5, #D414B7)",
+      color: "white",
+    },
+    externalLink: "https://www.cphbusiness.dk/",
   },
   {
     title: "DCC Energi",
@@ -61,12 +63,6 @@ export const projects: PortfolioGridItem[] = [
     externalLink: "https://nordvision.org/",
   },
   {
-    isEmpty: true,
-  },
-  {
-    isEmpty: true,
-  },
-  {
     title: "Studio N.A.A.L",
     slug: "studio-naal",
     description: "4. semesters eksamensopgave på multimediedesign",
@@ -76,14 +72,18 @@ export const projects: PortfolioGridItem[] = [
     externalLink: "https://studionaal.netlify.app/",
   },
   {
-    title: "Cphbusiness",
-    slug: "cph-business",
-    description: "Moderne, legende og dynamisk nyt website",
-    height: "medium",
-    style: {
-      background: "linear-gradient(45deg,  #6410F5, #D414B7)",
-      color: "white",
-    },
-    externalLink: "https://www.cphbusiness.dk/",
+    isEmpty: true,
+  },
+  {
+    isEmpty: true,
+  },
+  {
+    title: "Ethics & Society",
+    slug: "ethics-and-society",
+    description: "Touch-up af UX og UI",
+    imageSrc: "/images/home-grid/ethics-and-society.jpg",
+    height: "short",
+    style: { backgroundColor: "#C8E6F3", color: "#000" },
+    externalLink: "https://ebrainsethicsandsociety.tekno.dk/",
   },
 ];
