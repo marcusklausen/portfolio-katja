@@ -72,12 +72,6 @@ export const projects: PortfolioGridItem[] = [
     externalLink: "https://studionaal.netlify.app/",
   },
   {
-    isEmpty: true,
-  },
-  {
-    isEmpty: true,
-  },
-  {
     title: "Ethics & Society",
     slug: "ethics-and-society",
     description: "Touch-up af UX og UI",
@@ -85,5 +79,11 @@ export const projects: PortfolioGridItem[] = [
     height: "short",
     style: { backgroundColor: "#C8E6F3", color: "#000" },
     externalLink: "https://ebrainsethicsandsociety.tekno.dk/",
+  },
+  {
+    isEmpty: true,
+  },
+  {
+    isEmpty: true,
   },
 ];
