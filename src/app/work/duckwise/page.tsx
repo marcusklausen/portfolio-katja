@@ -70,7 +70,7 @@ export default async function Page() {
             vist frem til styregruppemøder, projektgruppen og DCC Energi.
           </p>
         </SectionDescription>
-        <ImageRow
+        <ImageRow quality={100}
           className="mt-16 gap-4"
           sources={[
             { src: role1, alt: "Persona" },

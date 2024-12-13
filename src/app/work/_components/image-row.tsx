@@ -10,11 +10,13 @@ export default function ImageRow({
   sources,
   className,
   imageClassName,
+  quality
 }: // priority = false,
 {
   sources: { src: StaticImageData; alt: string }[];
   className?: string;
   imageClassName?: string;
+  quality?: number;
   // priority?: boolean;
 }) {
   return (
@@ -38,7 +40,7 @@ export default function ImageRow({
           key={source.src.src}
           width={1200}
           height={500}
-          quality={80}
+          quality={quality||80}
           sizes="(max-width: 768px) 100vw, 50vw"
           className={imageClassName}
         />
