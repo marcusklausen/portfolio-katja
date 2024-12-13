@@ -120,14 +120,15 @@ export default async function Page() {
           </p>
         </SectionDescription>
       </Section>
-      <ImageRow
-        sources={[
-          { src: bottom1, alt: "Studio N.A.A.L website" },
-          { src: bottom2, alt: "Studio N.A.A.L website" },
-        ]}
-        className="mx-auto justify-center"
-        // imageClassName="w-full"
-      />
+      <div className="container mx-auto ">
+        <ImageRow
+          sources={[
+            { src: bottom1, alt: "Studio N.A.A.L website" },
+            { src: bottom2, alt: "Studio N.A.A.L website" },
+          ]}
+          className="gap-4 mt-10"
+        />
+      </div>
     </>
   );
 }
