@@ -5,7 +5,8 @@ import HeroDescription from "../_components/hero/hero-description";
 
 import dccEnergi1 from "./images/1.jpg";
 import dccEnergi2 from "./images/2.jpg";
-import largeImage from "./images/large.jpg";
+import role1 from "./images/role1.jpg";
+import role2 from "./images/role2.jpg";
 import bottom1 from "./images/bottom1.jpg";
 import bottom2 from "./images/bottom2.jpg";
 import Section from "../_components/section";
@@ -69,10 +70,21 @@ export default async function Page() {
             vist frem til styregruppemøder, projektgruppen og DCC Energi.
           </p>
         </SectionDescription>
-        <ImageRow
+        {/* <ImageRow
           sources={[{ src: largeImage, alt: "Persona" }]}
           className="justify-center mt-20"
-        />
+        /> */}
+      </Section>
+      <Section className="">
+        <div className="container mx-auto">
+          <ImageRow
+            sources={[
+              { src: role1, alt: "Persona" },
+              { src: role2, alt: "Empathy Map" },
+            ]}
+            className="gap-4 mt-16"
+          />
+        </div>
       </Section>
       <Section className="">
         <SectionTitle>Koncept</SectionTitle>
