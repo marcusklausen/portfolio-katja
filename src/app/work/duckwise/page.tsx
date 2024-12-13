@@ -43,7 +43,7 @@ export default async function Page() {
           til hurtigt at skabe informativt indhold ved at kombinere forskellige
           moduler.
         </HeroDescription>
-        <ExternalLink />
+        <ExternalLink title="Konceptvideo" />
 
         <ImageRow
           className="mt-16"
