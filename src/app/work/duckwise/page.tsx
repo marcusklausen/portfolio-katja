@@ -71,7 +71,7 @@ export default async function Page() {
           </p>
         </SectionDescription>
         <ImageRow
-          className="mt-16"
+          className="mt-16 gap-4"
           sources={[
             { src: role1, alt: "Persona" },
             { src: role2, alt: "Empathy Map" },
