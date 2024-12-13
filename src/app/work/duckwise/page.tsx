@@ -86,7 +86,7 @@ export default async function Page() {
           />
         </div>
       </Section>
-      <Section className="">
+      <Section hasBackground>
         <SectionTitle>Koncept</SectionTitle>
         <SectionDescription>
           <p>
