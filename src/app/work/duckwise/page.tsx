@@ -3,8 +3,8 @@ import Hero from "../_components/hero";
 import HeroTitle from "../_components/hero/hero-title";
 import HeroDescription from "../_components/hero/hero-description";
 
-import dccEnergi1 from "./images/1.jpg";
-import dccEnergi2 from "./images/2.jpg";
+import duckwise1 from "./images/1.jpg";
+import duckwise2 from "./images/2.jpg";
 import role1 from "./images/role1.jpg";
 import role2 from "./images/role2.jpg";
 import bottom1 from "./images/bottom1.jpg";
@@ -49,13 +49,13 @@ export default async function Page() {
         <ImageRow
           className="mt-16"
           sources={[
-            { src: dccEnergi1, alt: "Mary Elizabeth Hospital" },
-            { src: dccEnergi2, alt: "Duckwise Logo med sort baggrund" },
+            { src: duckwise1, alt: "Mary Elizabeth Hospital" },
+            { src: duckwise2, alt: "Duckwise Logo med sort baggrund" },
           ]}
         />
       </Hero>
       <Section hasBackground>
-        <SectionTitle>Opgavens formål</SectionTitle>
+        <SectionTitle>Brief</SectionTitle>
         <SectionDescription>
           <p>
             Jeg kom på projektet efter salgspitch og research. Derfor var der
@@ -70,23 +70,15 @@ export default async function Page() {
             vist frem til styregruppemøder, projektgruppen og DCC Energi.
           </p>
         </SectionDescription>
-        {/* <ImageRow
-          sources={[{ src: largeImage, alt: "Persona" }]}
-          className="justify-center mt-20"
-        /> */}
+        <ImageRow
+          className="mt-16"
+          sources={[
+            { src: role1, alt: "Persona" },
+            { src: role2, alt: "Empathy Map" },
+          ]}
+        />
       </Section>
       <Section className="">
-        <div className="container mx-auto">
-          <ImageRow
-            sources={[
-              { src: role1, alt: "Persona" },
-              { src: role2, alt: "Empathy Map" },
-            ]}
-            className="gap-4 mt-16"
-          />
-        </div>
-      </Section>
-      <Section hasBackground>
         <SectionTitle>Koncept</SectionTitle>
         <SectionDescription>
           <p>

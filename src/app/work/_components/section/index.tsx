@@ -16,7 +16,7 @@ export default async function Section({
       type: typeof SectionDescription;
     },
     (React.ReactElement<typeof ImageRow> & { type: typeof ImageRow })?
-  ]; | React.ReactNode
+  ];
   hasBackground?: boolean;
 }) {
   return (
