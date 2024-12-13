@@ -39,9 +39,9 @@ export default async function Page() {
       <Hero>
         <HeroTitle>Duckwise X Børneriget Fonden</HeroTitle>
         <HeroDescription>
-          Duckwise ønskede et ny og moderne website. Vi skabte fleksibilitet
-          og til hurtigt at skabe informativt indhold ved at kombinere
-          forskellige moduler.
+          Duckwise ønskede et ny og moderne website. Vi skabte fleksibilitet og
+          til hurtigt at skabe informativt indhold ved at kombinere forskellige
+          moduler.
         </HeroDescription>
         <ExternalLink />
 
