@@ -24,27 +24,24 @@ export default function ImageRow({
       viewport={{ once: true }}
       transition={{ duration: 0.6 }}
       className={cn(
-        "flex flex-col md:flex-row w-full overflow-hidden",
+        "flex flex-col md:flex-row w-full",
         className,
         "group-has-[[data-hero]]:gap-4 group-has-[[data-hero]]:lg:px-0"
       )}
     >
       {sources.map((source) => (
-        <div
+        <Image
+          // priority={priority}
+          loading="eager"
+          src={source.src}
+          alt={source.alt}
           key={source.src.src}
-          className="flex-grow basis-0 min-w-0 aspect-[4/3]"
-        >
-          <Image
-            loading="eager"
-            src={source.src}
-            alt={source.alt}
-            width={1200}
-            height={500}
-            quality={80}
-            sizes="(max-width: 768px) 100vw, 50vw"
-            className={cn("w-full h-full object-cover", imageClassName)}
-          />
-        </div>
+          width={1200}
+          height={500}
+          quality={80}
+          sizes="(max-width: 768px) 100vw, 50vw"
+          className={imageClassName}
+        />
       ))}
     </motion.div>
   );
