@@ -82,7 +82,7 @@ export default async function Page() {
             { src: bottom1, alt: "Cphbusiness" },
             { src: bottom2, alt: "Cphbusiness" },
           ]}
-          className="gap-4 mt-10"
+          className="gap-4 mt-20"
         />
       </div>
     </>

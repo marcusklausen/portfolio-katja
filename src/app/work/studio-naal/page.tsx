@@ -126,7 +126,7 @@ export default async function Page() {
             { src: bottom1, alt: "Studio N.A.A.L website" },
             { src: bottom2, alt: "Studio N.A.A.L website" },
           ]}
-          className="gap-4 mt-10"
+          className="gap-4 mt-20"
         />
       </div>
     </>
