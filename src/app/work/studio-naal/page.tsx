@@ -81,7 +81,7 @@ export default async function Page() {
               alt: "Studio N.A.A.L Instagram",
             },
           ]}
-          className="justify-start mt-20 gap-10"
+          className="justify-start mt-20 gap-4"
           imageClassName="md:max-w-[375px]"
         />
       </Section>
@@ -104,7 +104,7 @@ export default async function Page() {
               { src: role1, alt: "Studio N.A.A.L website" },
               { src: role2, alt: "Studio N.A.A.L website" },
             ]}
-            className="gap-5 mt-16"
+            className="gap-4 mt-16"
           />
         </div>
       </Section>

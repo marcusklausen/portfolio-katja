@@ -37,9 +37,9 @@ export default function MasonryGrid({ projects }: MasonryGridProps) {
       </div>
 
       {/* Desktop */}
-      <div className=" gap-10 hidden md:flex">
+      <div className=" gap-8 hidden md:flex">
         {columns.map((column, columnIndex) => (
-          <div key={columnIndex} className="flex flex-col gap-11 flex-1">
+          <div key={columnIndex} className="flex flex-col gap-8 flex-1">
             {column.map((project, index) =>
               project.isEmpty ? (
                 <div key={"empty_" + index} className=" w-full"></div>
