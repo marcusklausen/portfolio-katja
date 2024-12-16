@@ -40,9 +40,7 @@ export default async function Page() {
       <Hero>
         <HeroTitle>Duckwise X Børneriget Fonden</HeroTitle>
         <HeroDescription>
-          Duckwise ønskede et ny og moderne website. Vi skabte fleksibilitet og
-          til hurtigt at skabe informativt indhold ved at kombinere forskellige
-          moduler.
+        I forbindelse med mit studie, Digital Konceptudvikling, har jeg udviklet MedConnect, et koncept der udforsker, hvordan Apple Vision Pro kan forbedre akutbehandling og styrke kommunikationen mellem hospitaler.
         </HeroDescription>
         <ExternalLink title="Konceptvideo" />
 
@@ -54,20 +52,19 @@ export default async function Page() {
           ]}
         />
       </Hero>
-      <Section hasBackground>
+      <Section hasBackground={true} className="">
         <SectionTitle>Brief</SectionTitle>
         <SectionDescription>
           <p>
-            Jeg kom på projektet efter salgspitch og research. Derfor var der
-            allerede en masse grundarbejde, som jeg skulle være ajour med. Min
-            primære opgave bestod bl.a. i at udarbejde navigationsprincip og
-            designe wireframes med moduler og komponenter som var en del af
-            salget og opgaven. Der er to primære målgrupper, private og
-            erhvervsfolk, hvor indholdet naturligvis skulle kunne differentieres
-            efter behov, men have den samme struktur. Derudover var der et stort
-            ønske om at den grønne tilgang skulle inkorporeres. Det kom til at
-            hedde Energiomstilling. Og så blev der ellers bare produceret og
-            vist frem til styregruppemøder, projektgruppen og DCC Energi.
+          Opgaven tog udgangspunkt i en briefing fra Duckwise om Mary Elizabeths Hospital og deres Babylance-transporthold, der håndterer kritiske situationer med nyfødte patienter. Briefet stillede spørgsmålstegn ved, hvordan VR/AR-teknologi kan bringe specialister tættere på kolleger, patienter og deres familier. Målet var at skabe en løsning, der understøtter beslutningstagning og behandling uden behov for fysisk tilstedeværelse, og som samtidig reducerer unødvendige patientoverførsler.
+          </p>
+        </SectionDescription>
+      </Section>
+      <Section className="">
+        <SectionTitle>Research</SectionTitle>
+        <SectionDescription>
+          <p>
+          Opgaven tog udgangspunkt i en briefing fra Duckwise om Mary Elizabeths Hospital og deres Babylance-transporthold, der håndterer kritiske situationer med nyfødte patienter. Briefet stillede spørgsmålstegn ved, hvordan VR/AR-teknologi kan bringe specialister tættere på kolleger, patienter og deres familier. Målet var at skabe en løsning, der understøtter beslutningstagning og behandling uden behov for fysisk tilstedeværelse, og som samtidig reducerer unødvendige patientoverførsler.
           </p>
         </SectionDescription>
         <ImageRow quality={100}
@@ -78,17 +75,11 @@ export default async function Page() {
           ]}
         />
       </Section>
-      <Section className="">
+      <Section hasBackground={true} className="">
         <SectionTitle>Koncept</SectionTitle>
         <SectionDescription>
           <p>
-            Mod leveringsdato og designet var blevet udformet, hjalp jeg med at
-            få lavet en god leverance til vores udviklere. Denne leverance
-            bestod af en kitchen sink over alt design i form af komponenter og
-            moduler både vist i desktop og mobile, med tilhørende forklarende
-            tekst. Sidetyperne var også designet med diverse, så designet kom
-            til sit rette element. Derefter kunne udvikling påbegyndes med en
-            leverance med alt UX og UI.
+          Vores koncept, MedConnect, er designet til at optimere kommunikationen mellem læger og specialister via Apple Vision Pro. Konceptet muliggør live video, deling af vitale data og brug af stemmeoptagelser for at forbedre vejledning og beslutningstagning i akutte situationer. Ved at reducere behovet for fysiske udrykninger med Babylancen, forbedrer løsningen ressourceudnyttelsen og patientoplevelsen. Du kan se konceptvideoen øverst oppe. 
           </p>
         </SectionDescription>
       </Section>
