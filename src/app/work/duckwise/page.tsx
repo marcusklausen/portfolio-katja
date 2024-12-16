@@ -81,7 +81,7 @@ export default async function Page() {
             { src: bottom1, alt: "Flyver om projektet" },
             { src: bottom2, alt: "Mobile visning med indkommende opkald" },
           ]}
-          className="container gap-4 mt-20"
+          className="container gap-4"
         />
       </div>
     </>
