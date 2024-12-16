@@ -59,14 +59,6 @@ export default async function Page() {
           Opgaven tog udgangspunkt i en briefing fra Duckwise om Mary Elizabeths Hospital og deres Babylance-transporthold, der håndterer kritiske situationer med nyfødte patienter. Briefet stillede spørgsmålstegn ved, hvordan VR/AR-teknologi kan bringe specialister tættere på kolleger, patienter og deres familier. Målet var at skabe en løsning, der understøtter beslutningstagning og behandling uden behov for fysisk tilstedeværelse, og som samtidig reducerer unødvendige patientoverførsler.
           </p>
         </SectionDescription>
-      </Section>
-      <Section className="">
-        <SectionTitle>Research</SectionTitle>
-        <SectionDescription>
-          <p>
-          Opgaven tog udgangspunkt i en briefing fra Duckwise om Mary Elizabeths Hospital og deres Babylance-transporthold, der håndterer kritiske situationer med nyfødte patienter. Briefet stillede spørgsmålstegn ved, hvordan VR/AR-teknologi kan bringe specialister tættere på kolleger, patienter og deres familier. Målet var at skabe en løsning, der understøtter beslutningstagning og behandling uden behov for fysisk tilstedeværelse, og som samtidig reducerer unødvendige patientoverførsler.
-          </p>
-        </SectionDescription>
         <ImageRow quality={100}
           className="mt-16 gap-4"
           sources={[
@@ -75,7 +67,7 @@ export default async function Page() {
           ]}
         />
       </Section>
-      <Section hasBackground={true} className="">
+      <Section className="">
         <SectionTitle>Koncept</SectionTitle>
         <SectionDescription>
           <p>
