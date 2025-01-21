@@ -3,10 +3,9 @@ import Hero from "../_components/hero";
 import HeroTitle from "../_components/hero/hero-title";
 import HeroDescription from "../_components/hero/hero-description";
 
-import duckwise1 from "./images/1.jpg";
-import duckwise2 from "./images/2.jpg";
-import role1 from "./images/role1.jpg";
-import role2 from "./images/role2.jpg";
+import superkilen1 from "./images/1.jpg";
+import superkilen2 from "./images/2.jpg";
+import largeImage from "./images/large.png";
 import bottom1 from "./images/bottom1.jpg";
 import bottom2 from "./images/bottom2.jpg";
 import Section from "../_components/section";
@@ -17,11 +16,11 @@ import ExternalLink from "../_components/hero/external-link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Duckwise X Børneriget Fonden Case - Katja Kurz Levring",
+  title: "Superkilen Case - Katja Kurz Levring",
   description:
     "DCC Energi ønskede et ny og moderne website. Vi skabte fleksibilitet og til hurtigt at skabe informativt indhold ved at kombinere forskellige moduler.",
   openGraph: {
-    title: "Duckwise X Børneriget Fonden - Katja Kurz Levring",
+    title: "Superkilen - Katja Kurz Levring",
     description:
       "Duckwise ønskede et ny og moderne website. Vi skabte fleksibilitet og til hurtigt at skabe informativt indhold ved at kombinere forskellige moduler.",
     images: [
@@ -47,8 +46,8 @@ export default async function Page() {
         <ImageRow
           className="mt-16"
           sources={[
-            { src: duckwise1, alt: "Mary Elizabeth Hospital" },
-            { src: duckwise2, alt: "Duckwise Logo med sort baggrund" },
+            { src: superkilen1, alt: "Mary Elizabeth Hospital" },
+            { src: superkilen2, alt: "Duckwise Logo med sort baggrund" },
           ]}
         />
       </Hero>
@@ -59,12 +58,14 @@ export default async function Page() {
           Opgaven tog udgangspunkt i en briefing fra Duckwise om Mary Elizabeths Hospital og deres Babylance-transporthold, der håndterer kritiske situationer med nyfødte patienter. Briefet stillede spørgsmålstegn ved, hvordan VR/AR-teknologi kan bringe specialister tættere på kolleger, patienter og deres familier. Målet var at skabe en løsning, der understøtter beslutningstagning og behandling uden behov for fysisk tilstedeværelse, og som samtidig reducerer unødvendige patientoverførsler.
           </p>
         </SectionDescription>
-        <ImageRow quality={100}
-          className="mt-16 gap-4"
+        <ImageRow
           sources={[
-            { src: role1, alt: "Persona" },
-            { src: role2, alt: "Empathy Map" },
+            {
+              src: largeImage,
+              alt: "Superkilen Uncovered design mobile",
+            },
           ]}
+          className="justify-center mt-20"
         />
       </Section>
       <Section className="">
