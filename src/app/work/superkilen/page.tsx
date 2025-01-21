@@ -7,7 +7,7 @@ import superkilen1 from "./images/1.jpg";
 import superkilen2 from "./images/2.jpg";
 import largeImage from "./images/large.png";
 import bottom1 from "./images/bottom1.jpg";
-import bottom2 from "./images/bottom2.jpg";
+import bottom2 from "./images/bottom2.gif";
 import Section from "../_components/section";
 import SectionTitle from "../_components/section/section-title";
 import SectionDescription from "../_components/section/section-description";
