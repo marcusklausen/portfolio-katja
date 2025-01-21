@@ -17,7 +17,7 @@ export const projects: PortfolioGridItem[] = [
     description: "Hvordan kan man gøre de lokale opmærksomme på Superkilen?",
     imageSrc: "/images/home-grid/superkilen.jpg",
     height: "short",
-    style: { backgroundColor: "#BDE3FE", color: "000C2E" },
+    style: { backgroundColor: "#BDE3FE", color: "#000C2E" },
     externalLink:
       "https://alt.landbrugsmedierne.dk/?_gl=1*c0pn8i*_gcl_au*NTgxOTgzMTU5LjE3MzAyMDI1MjE.*_ga*MTEzNjAwNDgwNy4xNzMwMjAyNTIx*_ga_ZDJYQW4D0V*MTczMTk0NjcyNi43LjAuMTczMTk0NjcyNi42MC4wLjA.&article_tag=null",
   },
