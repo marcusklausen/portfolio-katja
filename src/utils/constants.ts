@@ -19,7 +19,7 @@ export const projects: PortfolioGridItem[] = [
     height: "short",
     style: { backgroundColor: "#BDE3FE", color: "#000C2E" },
     externalLink:
-      "https://alt.landbrugsmedierne.dk/?_gl=1*c0pn8i*_gcl_au*NTgxOTgzMTU5LjE3MzAyMDI1MjE.*_ga*MTEzNjAwNDgwNy4xNzMwMjAyNTIx*_ga_ZDJYQW4D0V*MTczMTk0NjcyNi43LjAuMTczMTk0NjcyNi42MC4wLjA.&article_tag=null",
+      "https://www.figma.com/proto/kvmXDIBGURJpbV6YhHzhJL/Superkilen?page-id=49%3A423&node-id=107-24325&viewport=-410%2C183%2C0.38&t=Q3i7DHM3MAQ3px45-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=107%3A24325",
   },
   {
     title: "LandbrugsMedierne",

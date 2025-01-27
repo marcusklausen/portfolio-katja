@@ -39,7 +39,7 @@ export default async function Page() {
       <Hero>
         <HeroTitle>Superkilen Uncovered</HeroTitle>
         <HeroDescription>
-        I forbindelse med mit studie, Digital Konceptudvikling, har jeg udviklet MedConnect, et koncept der udforsker, hvordan Apple Vision Pro kan forbedre akutbehandling og styrke kommunikationen mellem hospitaler.
+        Konceptet Superkilen Uncovered lavede jeg i forbindelse med min eksamen på Digital Konceptudvikling. Et digitale koncept der bringer pladsens kulturelle historier til live gennem QR-koder. Projektet udforsker, hvordan teknologi kan øge de lokales kendskab og engagement med Superkilens unikke elementer. 
         </HeroDescription>
         <ExternalLink title="Prototype" />
 
@@ -52,10 +52,16 @@ export default async function Page() {
         />
       </Hero>
       <Section hasBackground={true} className="">
-        <SectionTitle>Brief</SectionTitle>
+        <SectionTitle>Research</SectionTitle>
         <SectionDescription>
           <p>
-          Opgaven tog udgangspunkt i en briefing fra Duckwise om Mary Elizabeths Hospital og deres Babylance-transporthold, der håndterer kritiske situationer med nyfødte patienter. Briefet stillede spørgsmålstegn ved, hvordan VR/AR-teknologi kan bringe specialister tættere på kolleger, patienter og deres familier. Målet var at skabe en løsning, der understøtter beslutningstagning og behandling uden behov for fysisk tilstedeværelse, og som samtidig reducerer unødvendige patientoverførsler.
+          For at skabe en brugerdrevet løsning til Superkilen har jeg gennemført omfattende research ved hjælp af desk research, spørgeskemaer og brugerinterviews. Desk research gav indsigt i Superkilens historik og nuværende brug, mens spørgeskemaer og interviews med lokale borgere og besøgende afslørede tre centrale udfordringer:
+
+1. Manglende kendskab til genstandenes baggrund – Mange er ikke bevidste om historierne bag pladsens elementer.
+2. Brugernes ønske om enkle løsninger – De efterspørger en let og tilgængelig måde at lære om pladsens indhold.
+3. Behov for autentisk formidling – Det er vigtigt, at historiefortællingen føles relevant og troværdig.
+
+Disse indsigter har dannet grundlag for udviklingen af Superkilen Uncovered, som fokuserer på at gøre historierne mere synlige og tilgængelige gennem en intuitiv digital løsning.
           </p>
         </SectionDescription>
         <ImageRow
@@ -72,7 +78,7 @@ export default async function Page() {
         <SectionTitle>Koncept</SectionTitle>
         <SectionDescription>
           <p>
-          Vores koncept, MedConnect, er designet til at optimere kommunikationen mellem læger og specialister via Apple Vision Pro. Konceptet muliggør live video, deling af vitale data og brug af stemmeoptagelser for at forbedre vejledning og beslutningstagning i akutte situationer. Ved at reducere behovet for fysiske udrykninger med Babylancen, forbedrer løsningen ressourceudnyttelsen og patientoplevelsen. Du kan se konceptvideoen øverst oppe. 
+          Superkilen Uncovered er en digital løsning, der gør pladsens kulturelle mangfoldighed let tilgængelig via QR-koder placeret ved de ikoniske genstande. Når brugerne scanner en QR-kode, får de adgang til engagerende indhold som tekst, billeder og videoer, der fortæller historien bag hvert element. Konceptet er skabt med fokus på enkelhed, autenticitet og tilgængelighed for at styrke de lokales og besøgendes kendskab til Superkilen. Løsningen bygger på brugernes behov og sikrer en interaktiv og lærerig oplevelse, der bringer pladsens historier til live på en ny og engagerende måde.
           </p>
         </SectionDescription>
       </Section>
