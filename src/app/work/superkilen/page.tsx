@@ -39,7 +39,11 @@ export default async function Page() {
       <Hero>
         <HeroTitle>Superkilen Uncovered</HeroTitle>
         <HeroDescription>
-        Konceptet Superkilen Uncovered lavede jeg i forbindelse med min eksamen på Digital Konceptudvikling. Et digitale koncept der bringer pladsens kulturelle historier til live gennem QR-koder. Projektet udforsker, hvordan teknologi kan øge de lokales kendskab og engagement med Superkilens unikke elementer. 
+          Konceptet Superkilen Uncovered lavede jeg i forbindelse med min
+          eksamen på Digital Konceptudvikling. Et digitale koncept der bringer
+          pladsens kulturelle historier til live gennem QR-koder. Projektet
+          udforsker, hvordan teknologi kan øge de lokales kendskab og engagement
+          med Superkilens unikke elementer.
         </HeroDescription>
         <ExternalLink title="Prototype" />
 
@@ -55,13 +59,37 @@ export default async function Page() {
         <SectionTitle>Research</SectionTitle>
         <SectionDescription>
           <p>
-          For at skabe en brugerdrevet løsning til Superkilen har jeg gennemført omfattende research ved hjælp af desk research, spørgeskemaer og brugerinterviews. Desk research gav indsigt i Superkilens historik og nuværende brug, mens spørgeskemaer og interviews med lokale borgere og besøgende afslørede tre centrale udfordringer:
-          <ol className="list-decimal py-6">
-          <li><strong className="text-bold">Manglende kendskab til genstandenes baggrund</strong> - Mange er ikke bevidste om historierne bag pladsens elementer</li>
-          <li><strong className="text-bold">Brugernes ønske om enkle løsninger</strong> - De efterspørger en let og tilgængelig måde at lære om pladsens indhold.</li>
-          <li><strong className="text-bold">Behov for autentisk formidling</strong> - Det er vigtigt, at historiefortællingen føles relevant og troværdig.</li>
-          </ol>
-          Disse indsigter har dannet grundlag for udviklingen af Superkilen Uncovered, som fokuserer på at gøre historierne mere synlige og tilgængelige gennem en intuitiv digital løsning.
+            For at skabe en brugerdrevet løsning til Superkilen har jeg
+            gennemført omfattende research ved hjælp af desk research,
+            spørgeskemaer og brugerinterviews. Desk research gav indsigt i
+            Superkilens historik og nuværende brug, mens spørgeskemaer og
+            interviews med lokale borgere og besøgende afslørede tre centrale
+            udfordringer:
+            <ol className="list-decimal py-8 space-y-3 pl-12">
+              <li>
+                <strong className="text-bold">
+                  Manglende kendskab til genstandenes baggrund
+                </strong>{" "}
+                - Mange er ikke bevidste om historierne bag pladsens elementer
+              </li>
+              <li>
+                <strong className="text-bold">
+                  Brugernes ønske om enkle løsninger
+                </strong>{" "}
+                - De efterspørger en let og tilgængelig måde at lære om pladsens
+                indhold.
+              </li>
+              <li>
+                <strong className="text-bold">
+                  Behov for autentisk formidling
+                </strong>{" "}
+                - Det er vigtigt, at historiefortællingen føles relevant og
+                troværdig.
+              </li>
+            </ol>
+            Disse indsigter har dannet grundlag for udviklingen af Superkilen
+            Uncovered, som fokuserer på at gøre historierne mere synlige og
+            tilgængelige gennem en intuitiv digital løsning.
           </p>
         </SectionDescription>
         <ImageRow
@@ -78,7 +106,15 @@ export default async function Page() {
         <SectionTitle>Koncept</SectionTitle>
         <SectionDescription>
           <p>
-          Superkilen Uncovered er en digital løsning, der gør pladsens kulturelle mangfoldighed let tilgængelig via QR-koder placeret ved de ikoniske genstande. Når brugerne scanner en QR-kode, får de adgang til engagerende indhold som tekst, billeder og videoer, der fortæller historien bag hvert element. Konceptet er skabt med fokus på enkelhed, autenticitet og tilgængelighed for at styrke de lokales og besøgendes kendskab til Superkilen. Løsningen bygger på brugernes behov og sikrer en interaktiv og lærerig oplevelse, der bringer pladsens historier til live på en ny og engagerende måde.
+            Superkilen Uncovered er en digital løsning, der gør pladsens
+            kulturelle mangfoldighed let tilgængelig via QR-koder placeret ved
+            de ikoniske genstande. Når brugerne scanner en QR-kode, får de
+            adgang til engagerende indhold som tekst, billeder og videoer, der
+            fortæller historien bag hvert element. Konceptet er skabt med fokus
+            på enkelhed, autenticitet og tilgængelighed for at styrke de lokales
+            og besøgendes kendskab til Superkilen. Løsningen bygger på brugernes
+            behov og sikrer en interaktiv og lærerig oplevelse, der bringer
+            pladsens historier til live på en ny og engagerende måde.
           </p>
         </SectionDescription>
       </Section>
