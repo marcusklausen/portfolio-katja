@@ -56,7 +56,7 @@ export default async function Page() {
         <SectionDescription>
           <p>
           For at skabe en brugerdrevet løsning til Superkilen har jeg gennemført omfattende research ved hjælp af desk research, spørgeskemaer og brugerinterviews. Desk research gav indsigt i Superkilens historik og nuværende brug, mens spørgeskemaer og interviews med lokale borgere og besøgende afslørede tre centrale udfordringer:
-          <ol>
+          <ol className="list-decimal py-6">
           <li><strong className="text-bold">Manglende kendskab til genstandenes baggrund</strong> - Mange er ikke bevidste om historierne bag pladsens elementer</li>
           <li><strong className="text-bold">Brugernes ønske om enkle løsninger</strong> - De efterspørger en let og tilgængelig måde at lære om pladsens indhold.</li>
           <li><strong className="text-bold">Behov for autentisk formidling</strong> - Det er vigtigt, at historiefortællingen føles relevant og troværdig.</li>
