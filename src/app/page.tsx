@@ -36,7 +36,13 @@ export default async function Page() {
               </LinkWithArrow>
             </div>
             <p className="leading-relaxed max-w-[710px] text-lg md:text-2xl">
-            Jeg hedder Katja, er 26 år og UX/UI-designer med en baggrund som multimediedesigner. Jeg studerer Digital Konceptudvikling på KEA, og brænder for at skabe intuitive og værdiskabende digitale løsninger, der forener teknologi og brugernes behov. Med en proaktiv og detaljeorienteret tilgang værdsætter jeg samarbejde og stræber efter at udvikle mine designfærdigheder i dynamiske og kreative miljøer.
+              Jeg hedder Katja, er 27 år og UX/UI-designer med en baggrund som
+              multimediedesigner. Jeg studerer Digital Konceptudvikling på KEA,
+              og brænder for at skabe intuitive og værdiskabende digitale
+              løsninger, der forener teknologi og brugernes behov. Med en
+              proaktiv og detaljeorienteret tilgang værdsætter jeg samarbejde og
+              stræber efter at udvikle mine designfærdigheder i dynamiske og
+              kreative miljøer.
             </p>
           </div>
         </div>
